@@ -1,10 +1,19 @@
-import './App.css';
+import React from "react";
+import { Container } from "react-bootstrap";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello World </h1>
-    </div>
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>
+          <h1>Welcome to squareshift Online shop</h1>
+        </Container>
+      </main>
+      <Footer />
+    </>
   );
 }
 
