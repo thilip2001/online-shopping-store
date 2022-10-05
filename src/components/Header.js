@@ -6,7 +6,8 @@ const Header = () => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <Navbar.Brand href="/home">
-            <i className="fa-solid fa-cart-shopping"></i> |Sqs Online shop
+            <i className="fa-solid fa-cart-shopping" />
+            <span className="fw-bolder"> |SQS Online shop</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -25,7 +26,6 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <p className="text-center bg-dark text-light">Super Deal! Free shipping on Orders Above $50</p>
     </header>
   );
 };
