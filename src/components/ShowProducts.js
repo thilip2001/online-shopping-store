@@ -14,7 +14,7 @@ const ShowProducts = (props) => {
                 />
                 <div className="card-body">
                   <h5 className="card-title fw-bold mb-0 text-primary">
-                    {product.title.substring(0, 12)}
+                    {product.title.substring(0, 12)}...
                   </h5>
                   <p className="card-text lead fw-bolder text-secondary">${product.price}</p>
                   <a href="/" className="btn btn-outline-primary">

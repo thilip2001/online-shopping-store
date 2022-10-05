@@ -15,7 +15,7 @@ function Home() {
           <h5 className="card-title  display-4 text-primary">
             Welcome to SQS Online Shop
           </h5>
-          <p className="card-text fs-5 text-secondary">
+          <p className="card-text fs-5 text-dark">
             Super Deal! Free shipping on Orders Above $50
           </p>
         </div>

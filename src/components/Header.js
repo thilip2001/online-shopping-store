@@ -3,16 +3,21 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        bg="primary"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+      >
         <Container>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <i className="fa-solid fa-cart-shopping" />
             <span className="fw-bolder"> |SQS Online shop</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/products">All Products</Nav.Link>
             </Nav>
             <Nav className=" m-auto me-sm-2">
@@ -27,6 +32,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </header>
+    
   );
 };
 
